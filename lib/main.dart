@@ -11,48 +11,31 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            crossAxisAlignment: CrossAxisAlignment.stretch,
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Container(
-                height: 100,
                 color: Colors.red,
-                child: const Center(child: Text("Red")),
+                width: 100,
               ),
-              Container(
-                height: 100,
-                color: Colors.orange,
-                child: const Center(child: Text("Orange")),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.yellow,
+                  ),
+                  Container(
+                    width: 100,
+                    height: 100,
+                    color: Colors.green,
+                  )
+                ],
               ),
-              Container(
-                height: 100,
-                color: Colors.yellow,
-                child: const Center(child: Text("Yellow")),
-              ),
-              Container(
-                height: 100,
-                color: Colors.green,
-                child: const Center(child: Text("Green")),
-              ),
-              Container(
-                height: 100,
-                color: Colors.blue,
-                child: const Center(child: Text("Blue")),
-              ),
-              Container(
-                height: 100,
-                color: Colors.indigo,
-                child: const Center(child: Text("Indigo")),
-              ),
-              Container(
-                height: 100,
-                color: Colors.purple,
-                child: const Center(child: Text("Purple")),
-              ),
+              Container(width: 100, color: Colors.blue),
             ],
           ),
         ),

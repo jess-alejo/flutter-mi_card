@@ -61,3 +61,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/images/avatar_jess_alejo.png
+
+  fonts:
+    - family: Orbitron
+      fonts:
+        - asset:  assets/fonts/Orbitron-Regular.ttf
+    - family: Montserrat
+      fonts:
+        - asset:  assets/fonts/Montserrat-Regular.ttf

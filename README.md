@@ -4,4 +4,9 @@
 
 The Complete Flutter Development Bootcamp with Dart
 
-![Final Project](screenshot.png)
+
+<img src="screenshot.png" width="250"/>
+
+---
+
+<img src="animated.gif" width="250"/>
